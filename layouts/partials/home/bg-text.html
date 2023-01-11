@@ -1,0 +1,9 @@
+{{ if (isset .Site.Params "bgtext") }}
+  <div class="bg-text">
+    <p>
+    {{ range .Site.Params.bgtext }}
+      {{ . }}<br>
+    {{ end}}
+    </p>
+  </div>
+{{ end }}

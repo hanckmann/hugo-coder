@@ -1,0 +1,33 @@
+.image-container {
+  position: relative;
+}
+
+.bottomright {
+  position: absolute;
+  bottom: 8px;
+  left: 0px;
+  font-size: 14px;
+  background-color: white;
+  opacity: 0.6;
+  border-radius: 1px 10px 1px 1px;
+  padding: 0px 5px;
+}
+
+@font-face {
+  font-family: jpfonts;
+  src: url("../fonts/hakio-free-trial.regular.otf") format("opentype"), url("../fonts/hakio-free-trial.regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.bg-text {
+  position: absolute;
+  top: 80%;
+  left: 5%;
+  transform: translate(-25%, -50%);
+  font-family: jpfonts;
+  color: grey;
+  font-size: 24px;
+  text-align: right;
+  z-index: -1;
+}
